@@ -1,15 +1,14 @@
 # RunSoundAdvpl
-Classe em advpl para emitir no protheus, através de uma DLL C++
+Classe em advpl para emitir som no protheus, através de uma DLL C++
 
 
 #Descricao
-Classe para emitir o som de forma simples no prothues.
+Fontes em c++, e advpl, para poder emitir de forma facil som no prothues,
+sem precisar executar via bat.
 
 
 
-#Exemplo de Uso
-
-//FUNÇÃO PARA EMITIR SOM
+#Exemplo
 User Function RunSoundC()
 *************************
 Local cSound	   := "C:\SOM\NOTIFY.MP3"
@@ -29,20 +28,14 @@ If !oSound:ErrorOne() // EMITE UM BIP DE ERRO
 EndIf
 
 
-
-
 If !oSound:TheEnd()  // SOM DE FINAL DE PROCESSO
     MsgStop(oSound:GetWarning())
 EndIf
-
-
-
 
 //PASSANDO COMO PARAMETRO UM ARQUIVO DE AUDIO
 If !oSound:Execute(cSound) 	
     MsgStop(oSound:GetWarning())
 EndIf
-
 
 
 //FECHA E LIBERA A DLL
