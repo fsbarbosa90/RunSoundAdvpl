@@ -1,10 +1,15 @@
 # RunSoundAdvpl
-Classe em advpl para emitir no protheus, através de uma DLL C++
+Classe em advpl para emitir som no protheus
 
 
 #Descrição
-Fontes em c++, e advpl, para poder emitir de forma facil som no prothues,
+Fonte em c++, e advpl, para poder emitir de forma facil som no prothues,
 sem precisar executar via bat.
+
+Os Fontes do c++ estão em anexo, mas para uso didatico, pois basta deixar a dll
+em local de possivel acesso pela aplicação, normalmente dentro da pasta smartclient
+da estação, e ajustar a classe RunSound.PRW para apontar para o caminho da DLL, e pronto.
+Muito simples!!!
 
 
 #Exemplo de Uso
