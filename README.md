@@ -1,5 +1,5 @@
 # RunSoundAdvpl
-Classe em advpl para emitir som no protheus
+Classe em advpl para emitir som / audio / musica no protheus, através de uma DLL C++ — 
 
 
 #Descrição
